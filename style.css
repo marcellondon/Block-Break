@@ -1,0 +1,66 @@
+body {
+   margin: 0;
+   background-color: black;
+}
+.grid {
+    display: grid;
+   border: 20px solid black;
+}
+.grid > * {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    border: 1px solid black;
+
+}
+#row1 > * {
+    background-color: rgba(250, 11, 11, 0.793);
+    border:1px solid white;
+    height:15px;
+}
+#row2 > * {
+    background-color: rgba(255, 79, 52, 0.793);
+    border:1px solid white;
+    height:15px;
+}
+#row3 > * {
+    background-color: rgba(254, 139, 63, 0.793);
+    border:1px solid white;
+    height:15px;
+}
+#row4 > * {
+    background-color: rgba(255, 252, 52, 0.926);
+    border:1px solid white;
+    height:15px;
+}
+#row5 > * {
+    background-color: rgba(250, 11, 11, 0.793);
+    border:1px solid white;
+    height:15px;
+}
+#row6 > * {
+    background-color: rgba(250, 11, 11, 0.793);
+    border:1px solid white;
+    height:15px;
+}
+#row7 > * {
+    background-color: black;
+    height:20px;
+}
+#row8 > * {
+    background-color: black;
+    height:20px;
+   
+}
+#row9 > *{
+
+    border: 1px solid white;
+    height: 15px;
+    width: 50px;
+    position: absolute bottom;
+}
+#paddle {
+    background-color: gray
+}
+#ball {
+    background-color: white;
+}
